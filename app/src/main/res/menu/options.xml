@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/update"
+        android:title="Download Update"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_baseline_refresh_24"/>
 
     <item
         android:id="@+id/notes"
@@ -8,6 +13,7 @@
         app:showAsAction="ifRoom|withText"
         android:title="@string/notes">
     </item>
+
     <item
         android:id="@+id/settings"
         android:icon="@drawable/ic_baseline_settings_24"
